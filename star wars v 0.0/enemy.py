@@ -10,7 +10,7 @@ class Enemy(Sprite):
 		self.ai_settings = ai_settings
 		
 		#Wczytanie wroga oraz definicja atrybutu rect.
-		self.image = pygame.image.load('tie_fighter.png')
+		self.image = pygame.image.load('Tie_Fighter.png')
 		self.rect = self.image.get_rect()
 		
 		#Umieszczenie nowego wroga w lewym górnym rogu
